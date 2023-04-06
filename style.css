@@ -34,20 +34,22 @@ html, body {
     display: block;
     grid-column: 1/2;
     grid-row: 2/3;
+  
+
   }
 
   #kinect-window {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: black;
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
   .hands {
     height: 100px;
-    background-color: #b8937a;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +60,7 @@ html, body {
   .circle {
     height: 50px;
     width: 50px;
-    color: white;
+    color: black;
     background-color: #fcc006;
     border-radius: 50%;
     display: flex;
